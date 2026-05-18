@@ -28,6 +28,8 @@ app.use("/api/test", testRoutes);
 
 app.use("/api/leads", leadRoutes);
 
+app.use("/api/users", userRoutes);
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
